@@ -7,6 +7,6 @@ package compiler;
  */
 public interface Compiler {
 
-    void compiler(String fileUrl);
+    void compilerToLocal(String fileUrl,String desc);
 
 }
